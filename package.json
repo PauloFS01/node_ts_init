@@ -1,0 +1,8 @@
+{
+  "name": "node_ts_init",
+  "version": "1.0.0",
+  "description": "Boilerplate for a node ts project",
+  "main": "index.js",
+  "author": "Paulo",
+  "license": "MIT"
+}
