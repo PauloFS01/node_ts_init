@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /Users/paulosilva/.node/corepack/yarn/1.22.15/bin/yarn.js add typescript @types/express ts-node-de -D
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ts-node-de: Not found
+      at Request.params.callback [as _callback] (/Users/paulosilva/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/paulosilva/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/paulosilva/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/paulosilva/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "node_ts_init",
+    "version": "1.0.0",
+    "description": "Boilerplate for a node ts project",
+    "main": "index.js",
+    "author": "Paulo",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
